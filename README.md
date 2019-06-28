@@ -2,6 +2,9 @@
 
 This is an object-oriented, hybrid linear-nonlinear programming hydropower optimization model for California. It is modeled in pyomo, high level optimization programming language. The model is capable of creating linear and nonlinear hydropower models. Since linear model is much faster than nonlinear, its results can be used as a initial solution (warmstart) for the nonlinear model. Linear model results can also be used as stand alone. When `warmstart=True` and both LP and NLP models run sequentially, initial primal variables from LP model are fed into NLP model, decreasing iterations for convergence and runtime.
 
+### Documentation
+Dogan M.S., 2019. [Hydropower Generation Optimization in the Era of Renewables and Climate Change](https://watershed.ucdavis.edu/shed/lund/students/Mustafa_Dogan_dissertation2019.pdf). Doctoral Dissertation. University of California, Davis
+
 ## Nonlinear model
 
 The model represents nonlinearities of hydropower due to storage (so water head). Head is dynamically calculated as a polynomial function of storage. Polynomial functions are predetermined and plant-specific. Large-scale nonlinear solver `ipopt` is used to solve the problem.
