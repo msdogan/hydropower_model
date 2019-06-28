@@ -64,9 +64,7 @@ The model is flexible on time-step selection and supports several time-step opti
 
 Benefit curves drive operations for both NLP and LP models. While benefit curve and its function optimized and water head is dynamically calculated for NLP model, prescribed linear benefit curves are used for LP model. Differences between benefit curves (residuals) are discussed above. Due to residuals, errors on output decision variables occur.
 
-![dry season errors](plots/jointplot_dry_tot.png) 
-
-![wet season errors](plots/jointplot_wet_tot.png) 
+![errors](plots/Differences.png) 
 
 ## Network schematic
 
@@ -97,9 +95,7 @@ Optional:
 
 Linear programming (LP) model runs significantly faster than nonlinear programming (NLP) model. Runtime (wall clock time) scalability for different number of decision variables are shown below on a semi-log scale. Runtime increases exponentially as number of decision variables increase. Although NLP and NLP warmstart models have similar orders of magnitude, O(n^3), overall warmstart option reduces runtime in all model sizes.
 
-![runtime](plots/runtime_log.png)
-
-![runtime and accuracy vs model size](plots/runtime_accuracy.png)
+![runtime](plots/runtime.png)
 
 ## This repository is greatly benefited from calvin
 
