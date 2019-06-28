@@ -1,0 +1,23 @@
+"
+Problem: 
+- Name: unknown
+  Lower bound: 1692023774.86
+  Upper bound: 1692023774.86
+  Number of objectives: 1
+  Number of constraints: 7987
+  Number of variables: 3163
+  Number of nonzeros: 12481
+  Sense: maximize
+Solver: 
+- Status: ok
+  Termination condition: optimal
+  Statistics: 
+    Branch and bound: 
+      Number of bounded subproblems: 0
+      Number of created subproblems: 0
+  Error rc: 0
+  Time: 0.143689155579
+Solution: 
+- number of solutions: 0
+  number of solutions displayed: 0
+"
