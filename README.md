@@ -5,6 +5,8 @@ This is an object-oriented, hybrid linear-nonlinear programming hydropower optim
 ### Documentation
 Dogan M.S., 2019. [Hydropower Generation Optimization in the Era of Renewables and Climate Change](https://watershed.ucdavis.edu/shed/lund/students/Mustafa_Dogan_dissertation2019.pdf). Doctoral Dissertation. University of California, Davis
 
+[![DOI](https://zenodo.org/badge/194236128.svg)](https://zenodo.org/badge/latestdoi/194236128)
+
 ## Nonlinear model
 
 The model represents nonlinearities of hydropower due to storage (so water head). Head is dynamically calculated as a polynomial function of storage. Polynomial functions are predetermined and plant-specific. Large-scale nonlinear solver `ipopt` is used to solve the problem.
